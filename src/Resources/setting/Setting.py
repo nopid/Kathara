@@ -15,8 +15,8 @@ AVAILABLE_MANAGERS = ["docker", "kubernetes"]
 ONE_WEEK = 604800
 
 DEFAULTS = {
-    "plugin_name": 'kathara/katharanp:' + utils.arch(),
-    "image": 'kathara/quagga',
+    "plugin_name": 'nopid/katharanp:' + utils.arch(),
+    "image": 'nopid/quagga:debian10',
     "manager_type": 'docker',
     "terminal": utils.exec_by_platform(lambda: '/usr/bin/xterm', lambda: '', lambda: 'Terminal'),
     "open_terminals": True,
