@@ -15,6 +15,7 @@ strings = {
     "wipe": "Delete all Kathara devices and collision domains, optionally also delete settings",
     "list": "Show all running Kathara devices of the current user",
     "settings": "Show and edit Kathara settings",
+    "wire": "Capture traffic from collision domains",
     "check": "Check your system environment"
 }
 
